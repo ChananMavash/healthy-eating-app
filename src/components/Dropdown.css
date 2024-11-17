@@ -1,0 +1,79 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: #4CAF50; /* צבע הכפתור */
+    color: white; /* צבע טקסט */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dropdown-button:hover {
+    background-color: #45a049; /* צבע בזמן ריחוף */
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: white; /* צבע רקע */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black; /* צבע טקסט */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* צבע רקע בזמן ריחוף על הלינק */
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc; /* גבול לתפריט */
+    max-width: 200px; /* רוחב מקסימלי */
+}
+
+li {
+    padding: 8px; /* רווח פנימי בין פריטים */
+    cursor: pointer; /* יד על העכבר */
+}
+
+li:hover {
+    background-color: #f0f0f0; /* צבע רקע בעת ריחוף */
+}
+.dropdown-container {
+    position: relative; /* עוזר למקם את התפריט הנשלף */
+    display: inline-block; /* מאפשר לתפריט להופיע ליד כפתורים אחרים */
+    margin: 10px; /* רווח בין התפריטים */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc; /* גבול לתפריט */
+    background-color: white; /* צבע רקע לתפריט */
+    position: absolute; /* ממקם את התפריט ביחס להורה */
+    z-index: 1; /* מבטיח שהתפריט יהיה מעל תכנים אחרים */
+    width: 200px; /* רוחב התפריט */
+}
+
+li {
+    padding: 10px; /* רווח פנימי בין פריטים */
+    cursor: pointer; /* יד על העכבר */
+}
+
+li:hover {
+    background-color: #f0f0f0; /* צבע רקע בעת ריחוף */
+}

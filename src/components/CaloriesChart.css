@@ -1,0 +1,7 @@
+/* components/CaloriesChart.css */
+.chart-container {
+    width: 65%; /* הגדרת רוחב ל-65% */
+    height: auto; /* גובה אוטומטי */
+    margin: 0 auto; /* ממרכז את הגרף */
+  }
+  

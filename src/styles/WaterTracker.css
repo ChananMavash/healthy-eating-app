@@ -1,0 +1,47 @@
+.water-tracker {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  button {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #008ba3;
+  }
+  
+  progress {
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+  }
+  
+  .motivation-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4caf50; /* צבע ירוק */
+  }
+  .cup-images-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .cup-image {
+    width: 50px; /* או כל גודל אחר שמתאים לך */
+    margin: 5px;
+  }
+  button {
+    margin: 10px 0; /* הוספת רווח בין הכפתורים */
+  }
+    
